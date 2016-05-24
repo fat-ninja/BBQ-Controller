@@ -9,11 +9,9 @@
     Thermocouple with driver board (MAX6675)
     12v 1A tolerant MOSFET
     12v FAN
+PID LIbary 
+https://github.com/br3ttb/Arduino-PID-Library/
 
-  Outstanding Functionality:
-    Ability to set Temp High and Temp Low
-    Storage of Temp High and Temp Low in EEPROM
-    PWM Sensing from FAN Tach (OPTIONAL)
 
 */
 
