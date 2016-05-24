@@ -155,11 +155,11 @@ void guiDrawIdle(void) {
  */
 void setFanSpeed(void) {
   if(_currentTemp < _tempHigh && _currentTemp > _tempLow) {
-    analogWrite(13, 128);
+    analogWrite(13, 255);
   } else if(_currentTemp > _tempHigh) {
     analogWrite(13, 0);
   } else {
-    analogWrite(13,255);
+    analogWrite(13,127);
   }
 }
 
